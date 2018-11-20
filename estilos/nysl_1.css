@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ h1 {
+    background-image: url(img/img1.jpg);
+    width: 100%;
+    height: 200px;
+    font-size: 60px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home {
+        background-color: lightseagreen;
+        width: 100%;
+        height: 28px;
+        font-size:30px;
+        text-align: center;       
+        }
+.about {
+        background-color:lightseagreen;
+        width: 100%;
+        height: 28px;
+        font-size:30px;
+        text-align: center;
+        }
+.cont {
+        background-color: lightseagreen;
+        width: 100%;
+        height: 28px;
+        font-size:30px;
+        text-align: center;
+        }   
+nav  {
+     float: left;
+     margin: 100px 20px 100px 20px;
+     font-size: 20px;
+     margin-top: 40px;
+}
+nav a     {
+          display: block;
+          margin-top: 40px;
+          text-decoration: none;
+          }
+.main   {
+        float: left;
+        margin-top: 60px;
+        font-size: 20px;
+        line-height:normal;
+        }
+.text   {
+        float: left;
+        width: 750px;
+        font-size: 20px;
+        line-height:normal;
+        margin-top: 40px;
+        }
+.datos  {
+        float: left;
+        margin-top: 60px;
+        font-size: 20px;
+        line-height:normal;
+        }
+img   {
+      width: 150px;
+      height: 150px;
+      right: 80px;
+      position: absolute;
+      top: 100px;
+      }
+.text h2 {
+         font-size: 30px;
+         font-weight: 300;
+         margin-top: 20px;
+         } 
+.main li {
+         font-size: 20px;
+         font-weight: 200;
+         margin-top: 20px;
+         } 
+.datos li{
+         font-size: 20px;
+         font-weight: 200;
+         margin-top: 20px;
+         } 
+.text p  {
+          margin: 30px;
+          margin-top: 0;
+         }  
+.main  h5 {
+          margin-left: 30px;
+          }  
+.current  {
+          text-decoration: underline;
+          }

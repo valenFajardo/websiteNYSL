@@ -1,0 +1,358 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+ u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.fondo-home {
+            background-image: url(img/img3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 120vh;
+           }
+img { 
+     position: absolute;
+     width: 130px;
+     height: 130px;
+     right: 80px;
+     top: 80px;
+    }
+.main {
+       float: inherit;
+       color:white;
+       font-size: 20px;
+       line-height: normal;
+      }
+.title {
+        position: relative;
+        font-size: 60px;
+        font-family: fantasy;
+        color: floralwhite;
+        left: 30px;
+        top: 30px;
+       }
+.main li {
+           margin-top: 50px;
+           font-size: 30px;
+           font-family: fantasy;
+           margin-left: 300px;
+           color:chartreuse;
+           position: relative;
+           top:100px;
+         }
+.main h5 {
+           margin-top: 0;
+           font-size: 20px;
+           font-family:sans-serif;
+           margin-left: 80px;
+           color:white;
+         }
+nav {
+      margin-left: 60px;
+      position: relative;
+      top: 50px;
+    }
+nav a {
+       margin-right: 25px;
+       text-decoration: none;
+       padding: 3px 3px 3px 3px;
+       font-size: 25px;
+       color:cyan;
+       font-family: sans-serif
+      }
+.enlaces-home {
+                text-align: center;
+                margin-right: 200px;
+              }
+.logo-home {
+            width: 150px;
+            height: 150px;
+           }
+
+.current  {
+          color:greenyellow;
+         }
+.home {
+       position: relative;
+       top: 150px;
+       left: 80px;
+       font-size: 30px;
+       font-family: monospace;
+        color:darkseagreen;
+       }
+.fondo-about {
+               background-image: url(img/img4.jpg);
+               background-size: cover;
+               background-repeat: no-repeat;
+               width: 100%;
+               height: 230px;   
+             }
+.text {
+       padding-top: 20px;
+       float: inherit;
+       color:black;
+       font-size: 20px;
+       line-height: normal;
+        background-color: rgba(255,255,255,8);
+        background-image: url(img/img5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+.text h3 {
+           margin-top: 30px;
+           font-size: 30px;
+           font-family: fantasy;
+           margin-left: 50px;
+           color: white;
+           top:100px;
+         }
+.text p  {
+           margin-top: 0;
+           font-size: 20px;
+           font-family:sans-serif;
+           margin-left: 80px;
+           color:black;
+           font-weight: 300;
+         }
+.fondo-contac {
+               background-image: url(img/img4.jpg);
+               background-size: cover;
+               background-repeat: no-repeat;
+               width: 100%;
+               height: 230px;   
+             }
+.about {
+        position: relative;
+        top: 170px;
+        font-size: 30px;
+        font-family: monospace;
+        color:darkseagreen;
+        background-color: black;
+        background-size: cover;
+       }
+.datos {
+        padding-top: 40px;
+        float: inherit;
+        color:black;
+        font-size: 20px;
+        line-height: normal;
+        background-color: rgba(255,255,255,0.9);
+        background-image: url(img/img6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+       }
+.datos li {
+    
+           margin-top: 0;
+           font-size: 30px;
+           font-family:sans-serif;
+           margin-left: 80px;
+           color:black;
+           font-weight: 300;
+           margin-top: 30px;
+         }
+
+.cont  {
+        position: relative;
+        top: 170px;
+        font-size: 30px;
+        font-family: monospace;
+        color:darkseagreen;
+        background-color: black;
+        background-size: cover;
+       }
+.fondo-rules {
+               background-image: url(img/img4.jpg);
+               background-size: cover;
+               background-repeat: no-repeat;
+               width: 100%;
+               height: 230px;   
+             }
+.text-rules {
+              padding-top: 40px;
+              float: inherit;
+              color:black;
+              font-size: 20px;
+              line-height: normal;
+              background-color: rgba(255,255,255,0.9);
+              background-image: url(img/img1.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+           }
+
+.rules  {
+        position: relative;
+        top: 170px;
+        font-size: 30px;
+        font-family: monospace;
+        color:darkseagreen;
+        background-color: black;
+        background-size: cover;
+       }
+.fifa-rules { 
+              text-align: center;
+              font-size: 22px;
+            }
+.titulos h1 { 
+             font-size: 28px;
+             margin-left: 20px;
+             margin-top: 20px;
+            }
+.subtitulos li {
+              margin-left: 40px;
+              margin-top: 20px;
+             }
+ul  {
+      list-style-type: square;
+      margin-left: 40px;
+    }
+.lista-circulo { 
+                 list-style-type: circle;
+                }
+.lista-letras  { 
+                 list-style-type: lower-latin;
+                }
+.text-info {
+              padding-top: 40px;
+              padding-left: 150px;
+              font-size: 20px;
+              font-family:inherit;
+              line-height: normal;
+              background-color: rgba(255,255,255,0.9);
+              background-image: url(img/img7.jpg);
+              background-repeat: no-repeat;
+              background-size: cover; 
+           }
+td, th {
+        padding-bottom: 3px;
+        width: 150px;
+       }
+.locations td {
+               width: 340px;
+              }
+.subrayado  {
+            text-decoration: underline;
+            }
+.subrayado td, th {
+                   text-decoration: underline;
+                  }
+p {
+    margin-top: 20px;
+  }
+.margin {
+         margin-bottom: 10px;
+        }
+.email {
+        
+        float: right;
+       }
+.phone {
+        
+        float: left;
+       }
+th {
+    padding-top: 20px;
+    text-align: left;
+    text-decoration: underline;
+   }
+.locations-margin {
+                    margin-top: 20px;
+                  }
+iframe {
+        display: block;
+        margin:  auto;
+       }
+.text-registration {
+                    padding-top: 50px;
+                    padding-left: 220px;
+                    font-size: 20px;
+                    font-family:inherit;
+                    line-height: normal;
+                    background-color: rgba(255,255,255,0.9);
+                    background-image: url(img/img2.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    float: inherit;
+                   }
+.clearfix {
+          overflow: auto;
+          }
+.permiso  {
+           width: 580px;
+           text-align: justify;
+          }
+input {
+        margin-top: 20px;
+      }
+
+.large {
+        width: 490px;
+       }
+.apart {
+        display: block;
+       }
+.title-permiso {
+                margin-top: 20px;
+                text-decoration: underline;
+               }
+.send {
+        padding: 20px 20px 20px 20px;
+        background-color: darkblue;
+        color: white;
+        margin-left: 280px;
+        border: 3px solid darkgreen;
+       }
+.margin-address {
+                padding-right: 30px;
+                }
+.margin-parent {
+              padding-right: 30px;
+               }
+.city-code input {
+                    width: 240px;
+                 }
+.phone-email input {
+                    width: 185px;
+                   }
+.jersey-short {
+                padding-right: 60px;
+              }
+.jersey-short label {
+                     padding-left: 30px;
+                    }
